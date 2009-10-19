@@ -9,6 +9,12 @@
 	<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">	
 	<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
 	<style type="text/css" media="screen">
+	  body {
+	    background-color:#f1f1f1;
+	  }
+	  div.container {
+	    background-color:#ffffff;
+	  }
 		a:link {text-decoration: none}
 		a:visited {text-decoration: none}
 		a:active {text-decoration: none}
@@ -18,26 +24,22 @@
 			background:url(assets/images/red-bullet-2x2.png) no-repeat 0px .7em;
 			padding-left:6px;
 		}
-		
 		h1.section {
 			color: #C7C7C7 !important;
 			font-weight: bold;
 		}
-		
 		.footerbtn {
 			color: #ffba00;
 		}
-
 		.footertext {
 			color: #f8f8f8;
 			font-size: 7pt;
 		}
-		
-		div.downloadbtn {
-			color: #ffba00;
-			margin-top: -30px;
+		div.download-text {
+			color: #ffde00;
+			margin-top: -45px;
 			margin-left: 30px;
-		}		
+		}
 	</style>
 	<title>Robotlegs AS3 Micro-Architecture</title>
 	
@@ -45,26 +47,34 @@
 
 <body>
 	<div class="container">		
-		<div class="span-24 last" style="background-color:#000000">
-			<hr class="space">
+		
+		<!-- Header -->
+		<div class="span-24 last" style="background-color:#101010">
 			<hr class="space">
 			<div class="span-8 prepend-8 append-8 last">
-				<img src="assets/images/rl-header-logo-310-253.png">
+				<img src="assets/images/robotlegs-header.gif">
 			</div>
 			<hr class="space">
-			<hr class="space">
 		</div>
 		<hr class="space">
-		<div class="span-6 prepend-9 append-9 last" align="center">
-			<a onMouseOver="document.downloadButtonImage.src='assets/images/rl-download-btn-over.png'" onMouseOut="document.downloadButtonImage.src='assets/images/rl-download-btn-up.png'" href="http://cloud.github.com/downloads/robotlegs/robotlegs-framework/robotlegs-framework-v0.9.5.swc"><img src="assets/images/rl-download-btn-up.png" name="downloadButtonImage"/></a>
-			<div class="downloadbtn"><a onMouseOver="document.downloadButtonImage.src='assets/images/rl-download-btn-over.png'" onMouseOut="document.downloadButtonImage.src='assets/images/rl-download-btn-up.png'" href="http://cloud.github.com/downloads/robotlegs/robotlegs-framework/robotlegs-framework-v0.9.5.swc"><span class="footerbtn">ROBOTLEGS 0.9.5</span></a></div>
+		
+		<!-- Download Button -->
+		<div class="span-6 prepend-8 append-10 last" align="center">
+			<a href="http://cloud.github.com/downloads/robotlegs/robotlegs-framework/robotlegs-framework-v0.9.5.swc">
+			  <img src="assets/images/robotlegs-download.gif" name="downloadButtonImage"/>
+			</a>
+			<div class="download-text">
+			  <a href="http://cloud.github.com/downloads/robotlegs/robotlegs-framework/robotlegs-framework-v0.9.5.swc"><span class="footerbtn">robotlegs v0.9.5</span></a>
+			</div>
 		</div>
-		<hr class="space">	
+		
 		<hr class="space">
+		<hr class="space">
+		<hr class="space">
+		
 		<div class="span-22 prepend-2 last">
 			<h1 class="section">WHAT IS ROBOTLEGS?</h1>
 		</div>
-		
 		<div class="span-21 prepend-3 last">
 			<strong>ROBOTLEGS</strong> - pure AS3 micro-architecture that is:
 		</div>
