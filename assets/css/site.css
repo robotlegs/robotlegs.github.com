@@ -1,0 +1,47 @@
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: none;}
+body {
+    background-color:#171717;
+}
+div.container {
+    background-color:#ffffff;
+}
+li{
+	list-style:none;
+	background:url(../images/red-bullet-2x2.png) no-repeat 0px .7em;
+	padding-left:6px;
+}
+
+h1.section {
+	color: #C7C7C7 !important;
+	font-weight: bold;
+}
+
+.footerbtn {
+	color: #ffba00;
+}
+
+.footertext {
+	color: #f8f8f8;
+	font-size: 7pt;
+}
+
+div.downloadbtn {
+	color: #ffba00;
+	margin-top: -30px;
+	margin-left: 5px;
+}
+
+div.sub-title {
+	/*background:url(assets/images/hrule.png) no-repeat 0% 61%;*/
+}
+
+.info {
+	font-size:0.9em;
+	line-height:1.4em;
+	text-align: center !important;
+	padding: 5px;
+ border: 1px solid #cccccc; color: #000000; background-color: #fcf7f2;
+}
