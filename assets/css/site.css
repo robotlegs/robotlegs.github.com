@@ -8,10 +8,15 @@ body {
 div.container {
     background-color:#ffffff;
 }
+
 li{
 	list-style:none;
 	background:url(../images/red-bullet-2x2.png) no-repeat 0px .7em;
 	padding-left:6px;
+}
+
+.examplerow li {
+    padding-left:-6px !important;
 }
 
 h1.section {
@@ -34,8 +39,9 @@ div.downloadbtn {
 	margin-left: 5px;
 }
 
-div.sub-title {
-	/*background:url(assets/images/hrule.png) no-repeat 0% 61%;*/
+hr {
+    border: 0;
+	background: #fff url(../images/hrule.png) no-repeat top center;
 }
 
 .info {
