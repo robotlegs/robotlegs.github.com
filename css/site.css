@@ -12,12 +12,18 @@ div.container {
 
 li{
 	list-style:none;
-	background:url(/images/red-bullet-2x2.png) no-repeat 0px .7em;
-	padding-left:6px;
+	background:url(/images/red-bullet-2x2.png) no-repeat 2px .7em !important;
+	padding-left:7px !important;
 }
 
 .examplerow li {
     padding-left:-6px !important;
+}
+
+h1.section {
+     color: #C7C7C7 !important;
+     font-size: 2.0em;
+     font-weight: bold;
 }
 
 h1.section {
