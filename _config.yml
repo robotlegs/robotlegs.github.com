@@ -1,3 +1,4 @@
 markdown: rdiscount
 pygments: true
 site_title: Robotlegs AS3 Micro-Architecture
+current_release: 0.9.5
