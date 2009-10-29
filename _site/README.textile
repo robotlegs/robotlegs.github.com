@@ -1,0 +1,7 @@
+h2. What Is This?
+
+This is the source to the Collaborative Robotlegs Website. If you want to help build the website, learn about Jekyll and fork this repo.
+
+h2. Resources
+
+* "Jekyll":http://wiki.github.com/mojombo/jekyll

@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" href="/css/site.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print">
+	<link rel="stylesheet" href="/css/pygments.css" type="text/css" media="screen, projection">
+	<link rel="icon" type="image/png" href="/images/favicon.png" />
+	<link rel="fluid-icon" href="/images/fluidicon.png" title="Robotlegs" />
+  <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" /><![endif]-->
+	<!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.site_title }}{% endif %} - {{ page.name }}</title>
+</head>
+
+<body>
+	<div class="container">
+		{% if page.header == 'front' %}
+		   {% include front_header.html %}
+		{% else %}
+			{% unless page.hide_header %}
+		   		{% include page_header.html %}
+			{% endunless %}
+		{% endif %}
+		{{ content }}
+		{% unless page.hide_footer %}
+			{% include footer.html %}
+		{% endunless %}
+	</div>
+	{% unless page.hide_tender %}
+	<!-- TENDER  -->
+	<script type="text/javascript" defer="defer">
+	  var baseSslHost = (("https:" == document.location.protocol) ? "https://" : "http://");
+	  document.write(unescape("%3Cscript src='" + baseSslHost + "robotlegs.tenderapp.com/tender_widget.js' type='text/javascript'%3E%3C/script%3E"));
+  	</script>
+	<!-- END TENDER  -->
+	{% endunless %}
+</body>
+</html>
