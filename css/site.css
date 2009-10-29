@@ -12,7 +12,7 @@ div.container {
 
 li{
 	list-style:none;
-	background:url(/assets/images/red-bullet-2x2.png) no-repeat 0px .7em;
+	background:url(/images/red-bullet-2x2.png) no-repeat 0px .7em;
 	padding-left:6px;
 }
 
@@ -42,7 +42,7 @@ div.downloadbtn {
 
 hr {
     border: 0;
-	background: #fff url(/assets/images/hrule.png) no-repeat top center;
+	background: #fff url(/images/hrule.png) no-repeat top center !important;
 }
 
 .info {

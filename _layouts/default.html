@@ -17,14 +17,20 @@
 
 <body>
 	<div class="container">
-		{% if page.header == 'front' %}
-		   {% include front_header.html %}
-		{% else %}
-			{% unless page.hide_header %}
-		   		{% include page_header.html %}
-			{% endunless %}
-		{% endif %}
+		{% unless page.hide_header %}
+		    <!-- PAGE HEADER  -->
+			{% if page.header == 'front' %}
+			   {% include front_header.html %}
+			{% else %}
+			   	{% include page_header.html %}
+			{% endif %}
+			<!-- END PAGE HEADER  -->
+		{% endunless %}
+		
+		<!--CONTENT-->
 		{{ content }}
+		<!--END CONTENT-->
+		
 		{% unless page.hide_footer %}
 			{% include footer.html %}
 		{% endunless %}
