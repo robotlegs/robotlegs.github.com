@@ -1,11 +1,13 @@
 ---
 layout: post
-title: Screencast Added
+title: Flex and ZendAMF Screencast
 categories: 
 - community
 - screencasts
+- flex
+- zend
+- amf
+- zendamf
+- php
 ---
-
-## Testing
-
-Some para text 
+Andrei Toplician produced a [screencast on Basic Flex remoting using PHP and ZendAMF](http://andreitt.com/blog/?p=33)
