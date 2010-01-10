@@ -8,7 +8,16 @@ task :tags do
   options = Jekyll.configuration({})
   site = Jekyll::Site.new(options)
   site.read_posts('')
+  
+  includes = ["community"]
+    
   site.categories.sort.each do |category, posts|
+    generate_page category, posts if includes.include?(category)
+  end
+  puts 'Done.'
+end
+
+def generate_page (category, posts)
     html = ''
     html << <<-HTML
 ---
@@ -30,6 +39,5 @@ title: Postings tagged "#{category}"
     File.open("tags/#{category}.html", 'w+') do |file|
       file.puts html
     end
-  end
-  puts 'Done.'
+	
 end
