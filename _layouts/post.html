@@ -1,10 +1,19 @@
 ---
 layout: default
 ---
-<div id="title">
-<h2>{{ page.title }}</h2>
-</div>
-<div id="post">
-{{ content }}
-</div>
+  <hr class="space">
+  <div class="span-12 prepend-2">
+    <h1 class="section">{{ page.title }}</h1>
+    <h2 class="section">{{ page.date | date_to_string }}</h2>
+    {{ content }}
+  </div>
+  
+  <div class="span-7 prepend-1 append-2 last">
+    <h1 class="section">Recent</h1>
+    <ul class="archive">
+      {% for post in site.categories["community"] limit:10 %}
+      <li><a class="archivelink" href="{{ post.url }}">{{ post.date | date_to_string }} &raquo; {{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
 
+  </div>
