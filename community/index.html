@@ -3,7 +3,7 @@ layout: default
 name: Community
 ---
   <hr class="space">
-  <div class="span-20 prepend-2 append-2 last">
+  <div class="span-14 prepend-2">
     <h1 class="section">Community Updates</h1>
 
     {% for post in site.categories["community"] limit:6 %}
@@ -11,13 +11,46 @@ name: Community
         {{ post.content }}
       <hr />
     {% endfor %}
-  </div>	
-
-  <div class="span-20 prepend-2 append-2 last">
+ 
     <h1 class="section">Archive</h1>
       <ul class="archive">
       {% for post in site.categories["community"] offset:6 %}
       <li><a class="archivelink" href="{{ post.url }}">{{ post.date | date_to_string }} &raquo; {{ post.title }}</a></li>
       {% endfor %}
       </ul>
+  </div>
+  <div class="span-6 prepend-1 append-1 last">
+    <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'search',
+  search: '#robotlegs',
+  interval: 6000,
+  title: '',
+  subject: 'Robotlegs On Twitter',
+  width: 'auto',
+  height: 300,
+  theme: {
+    shell: {
+      background: '#171717',
+      color: '#ffba00'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#444444',
+      links: '#666666'
+    }
+  },
+  features: {
+    scrollbar: true,
+    loop: false,
+    live: true,
+    hashtags: true,
+    timestamp: true,
+    avatars: true,
+    behavior: 'all'
+  }
+}).render().start();
+</script>
   </div>
