@@ -1,8 +1,8 @@
 ---
 layout: post
-title:Purina Bag Builder Contest Launched Using Robotlegs and AS3Signals
+title: Purina Bag Builder Contest Launched Using Robotlegs and AS3Signals
 categories:
-- communities
+- community
 - success stories
 - flex
 - AS3-Signals
