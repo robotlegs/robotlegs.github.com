@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of RobotlegsDiagram</title>
+	<nodes>
+		<node label="libs">
+			<node label="RobotlegsDiagramWithFlow.swc" url="source/libs/RobotlegsDiagramWithFlow.swc"/>
+		</node>
+		<node label="src">
+			<node icon="mxmlAppIcon" selected="true" label="RobotlegsDiagramApp.mxml" url="source/RobotlegsDiagramApp.mxml.html"/>
+		</node>
+	</nodes>
+	<zipfile label="Download source (ZIP, 209K)" url="RobotlegsDiagram.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex4_sdk_download">
+	</sdklink>
+</index>
