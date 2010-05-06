@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HBO PunchZone: Robotlegs for the Unanimous Decision
+title: HBO PunchZone - Robotlegs for the Unanimous Decision
 categories:
 - community
 - success-story
