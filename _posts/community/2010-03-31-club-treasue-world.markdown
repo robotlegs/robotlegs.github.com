@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HBO PunchZone: Robotlegs for the Unanimous Decision
+title: Club Treasure World Uses Robotlegs
 categories:
 - community
 - success-story
