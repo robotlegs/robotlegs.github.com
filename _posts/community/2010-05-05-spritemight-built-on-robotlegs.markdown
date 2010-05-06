@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SpriteMite: a dedicated pixel art editor built on Adobe AIR and Robotlegs
+title: SpriteMite - a dedicated pixel art editor built on Adobe AIR and Robotlegs
 categories:
 - community
 - AIR
