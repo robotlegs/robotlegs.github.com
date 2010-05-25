@@ -35,14 +35,7 @@
 			{% include footer.html %}
 		{% endunless %}
 	</div>
-	{% unless page.hide_tender %}
-	<!-- TENDER  -->
-	<script type="text/javascript" defer="defer">
-	  var baseSslHost = (("https:" == document.location.protocol) ? "https://" : "http://");
-	  document.write(unescape("%3Cscript src='" + baseSslHost + "robotlegs.tenderapp.com/tender_widget.js' type='text/javascript'%3E%3C/script%3E"));
-  	</script>
-	<!-- END TENDER  -->
-	{% endunless %}
+
 	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
