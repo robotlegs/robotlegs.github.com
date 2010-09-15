@@ -4,4 +4,4 @@ This is the source to the Collaborative Robotlegs Website. If you want to help b
 
 h2. Resources
 
-* "Jekyll":http://wiki.github.com/mojombo/jekyll
+* "Jekyll":http://github.com/mojombo/jekyll/wiki
