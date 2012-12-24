@@ -2,12 +2,14 @@ a:link {text-decoration: none}
 a:visited {text-decoration: none}
 a:active {text-decoration: none}
 a:hover {text-decoration: none;}
+
 body {
-    background-color:#171717 !important;
-     background:#171717 !important;
+  background-color:#171717 !important;
+  background:#171717 !important;
 }
+
 div.container {
-    background-color:#ffffff;
+  background-color:#ffffff;
 }
 
 li{
@@ -17,19 +19,19 @@ li{
 }
 
 .examplerow li {
-    padding-left:-6px !important;
+  padding-left:-6px !important;
 }
 
 h1.section {
-     color: #C7C7C7 !important;
-     font-size: 2.0em;
-     font-weight: bold;
+  color: #777777 !important;
+  font-size: 2.0em;
+  font-weight: bold;
 }
 
 h2.section {
-     color: #C7C7C7 !important;
-     font-size: 1.3em;
-     font-weight: bold;
+  color: #777777 !important;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 a.permalink {
@@ -47,23 +49,23 @@ ul.archive {
 }
 
 .footerbtn {
-	color: #ffba00;
+  color: #ffba00;
 }
 
 .footertext {
-	color: #f8f8f8;
-	font-size: 7pt;
+  color: #f8f8f8;
+  font-size: 7pt;
 }
 
 div.downloadbtn {
-	color: #ffba00;
-	margin-top: -30px;
-	margin-left: 5px;
+  color: #ffba00;
+  margin-top: -30px;
+  margin-left: 5px;
 }
 
 hr {
-    border: 0;
-	background: #fff url(/images/hrule.png) no-repeat top center !important;
+  border: 0;
+  background: #fff url(/images/hrule.png) no-repeat top center !important;
 }
 
 .info {
@@ -71,5 +73,5 @@ hr {
 	line-height:1.4em;
 	text-align: center !important;
 	padding: 5px;
- border: 1px solid #cccccc; color: #000000; background-color: #fcf7f2;
+  border: 1px solid #cccccc; color: #000000; background-color: #fcf7f2;
 }
