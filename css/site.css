@@ -48,19 +48,41 @@ ul.archive {
   padding-left: 0em;
 }
 
-.footerbtn {
+.download {
+  position: relative;
+  width: 220px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.download a * {
+  position: absolute;
+}
+
+.download img {
+  border: 0;
+}
+
+.download img.over {
+  display: none;
+}
+
+.download:hover img.over {
+  display: inherit;
+}
+
+.download .footerbtn {
+  margin: 0 auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 10px;
   color: #ffba00;
 }
 
 .footertext {
   color: #f8f8f8;
   font-size: 7pt;
-}
-
-div.downloadbtn {
-  color: #ffba00;
-  margin-top: -30px;
-  margin-left: 5px;
 }
 
 hr {
