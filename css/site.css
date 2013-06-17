@@ -72,11 +72,13 @@ ul.archive {
 }
 
 .download .footerbtn {
-  margin: 0 auto;
   text-align: center;
   left: 0;
   right: 0;
   bottom: 10px;
+}
+
+.footerbtn {
   color: #ffba00;
 }
 
